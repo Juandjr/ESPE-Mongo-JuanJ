@@ -1,0 +1,7 @@
+use("espe");
+db.users.insertOne({
+    name: "Juan",
+    lastname: "Jimenez",
+    email: "jdjimenez11@espe.edu.ec",
+    password: "230904",
+});
